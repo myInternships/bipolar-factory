@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "time_slots",
+  "info": {
+    "name": "Timeslot"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "time": {
+      "required": true,
+      "type": "datetime"
+    },
+    "filled": {
+      "type": "integer"
+    }
+  }
+}

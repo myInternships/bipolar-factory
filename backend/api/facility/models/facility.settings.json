@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "facilities",
+  "info": {
+    "name": "Facility"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "max_users": {
+      "type": "integer",
+      "required": true
+    },
+    "current_users": {
+      "required": true,
+      "type": "integer"
+    }
+  }
+}
