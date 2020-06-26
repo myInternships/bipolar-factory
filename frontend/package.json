@@ -17,9 +17,12 @@
     "fs": "^0.0.1-security",
     "isomorphic-unfetch": "3.0.0",
     "jwt-decode": "2.2.0",
+    "moment": "^2.27.0",
     "next": "^9.3.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-moment": "^0.9.7",
+    "strapi-sdk-javascript": "^0.3.3",
     "swr": "0.2.3"
   }
 }
